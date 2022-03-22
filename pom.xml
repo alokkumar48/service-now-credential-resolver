@@ -75,11 +75,18 @@
         <systemPath>${midserver.agent.dir}/lib/commons-io.jar</systemPath>
     </dependency>
     <dependency>
-      <groupId>log4j</groupId>
-      <artifactId>log4j</artifactId>
-      <version>1.2.17</version>
+      <groupId>log4j-core</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.16.0</version>
       <scope>system</scope>
-      <systemPath>${midserver.agent.dir}/lib/log4j.jar</systemPath>
+      <systemPath>${midserver.agent.dir}/lib/log4j-core.jar</systemPath>
+    </dependency>
+    <dependency>
+      <groupId>log4j-slf4j-impl</groupId>
+      <artifactId>log4j-slf4j-impl</artifactId>
+      <version>2.16.0</version>
+      <scope>system</scope>
+      <systemPath>${midserver.agent.dir}/lib/log4j-slf4j-impl.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>jaxen</groupId>
