@@ -21,12 +21,12 @@
 
     <!-- Tells the MID server where to contact its associated ServiceNow instance.  Edit 
          this value to provide the URL of your organization's ServiceNow instance. -->
-    <parameter name="url" value="/"/>
+     <parameter name="url" value="https://dev23456.service-now.com/"/>
 
     <!-- If your ServiceNow instance has authentication enabled (the normal case), set 
          these parameters to define the user name and password the MID server will use 
          to log into the instance.  -->
-    <parameter name="mid.instance.username" value=""/>
+    <parameter name="mid.instance.username" value="amiduser"/>
     <parameter name="mid.instance.password" secure="true" value=""/>
 
     <!-- Defines the name by which your MID server is known on the ServiceNow instance.  
