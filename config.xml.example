@@ -27,7 +27,7 @@
          these parameters to define the user name and password the MID server will use 
          to log into the instance.  -->
     <parameter name="mid.instance.username" value="amiduser"/>
-    <parameter name="mid.instance.password" secure="true" value=""/>
+    <parameter name="mid.instance.password" secure="true" value="encrypted:h0sR91Uhtfhh8sNz4D83ZXnKHCtC0ZR1yOLuafc3LHg0="/>
 
     <!-- Defines the name by which your MID server is known on the ServiceNow instance.  
          Edit this value to provide the name you want, or leave it blank and the MID server
