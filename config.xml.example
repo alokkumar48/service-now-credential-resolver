@@ -21,13 +21,13 @@
 
     <!-- Tells the MID server where to contact its associated ServiceNow instance.  Edit 
          this value to provide the URL of your organization's ServiceNow instance. -->
-    <parameter name="url" value="https://dev23456.service-now.com/"/>
+    <parameter name="url" value="https://gardnonprod.service-now.com/"/>
 
     <!-- If your ServiceNow instance has authentication enabled (the normal case), set 
          these parameters to define the user name and password the MID server will use 
          to log into the instance.  -->
-    <parameter name="mid.instance.username" value="amiduser"/>
-    <parameter name="mid.instance.password" secure="true" value="encrypted:h0sR91Uhtfhh8sNz4D83ZXnKHCtC0ZR1yOLuafc3LHg0="/>
+    <parameter name="mid.instance.username" value="mid_server_dev"/>
+    <parameter name="mid.instance.password" secure="true" value="Gardmidserver@123"/>
 
     <!-- Defines the name by which your MID server is known on the ServiceNow instance.  
          Edit this value to provide the name you want, or leave it blank and the MID server
@@ -139,7 +139,7 @@
     <!-- Records the unique ID of the MID server's record on the ServiceNow instance.  On 
          installation of the MID server, this value should be empty.  The MID server
          will fill in this value after it first contacts your ServiceNow instance. -->
-    <parameter name="mid_sys_id" value="8d309529db7033002ht30d53ca96192d"/>
+    <parameter name="mid_sys_id" value="349cae031b5a8910f996a822604bcbcf"/>
 
 <parameter name="mid.proxy.use_proxy" value="false"/>  <parameter name="keypairs.mid_id" value="63201121hj683300a1161712b5e1e100"/>
 </parameters>
